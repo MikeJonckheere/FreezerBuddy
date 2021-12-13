@@ -5,10 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FreezerBuddy"
         mc:Ignorable="d"
-        Title="FreezerBuddy" Height="1000" Width="1000">
-    <Grid>
-        <Button x:Name="btn_Vlees" Content="VLEES" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="200" Width="300" FontSize="36" FontWeight="Bold" FontFamily="Arial Black"/>
-        <Button x:Name="btn_Groenten" Content="GROENTEN" HorizontalAlignment="Center" Margin="10,10,0,0" VerticalAlignment="Top" Height="200" Width="300" FontSize="36" FontWeight="Bold" FontFamily="Arial Black"/>
+        Title="FreezerBuddy" Height="880" Width="1000">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="btn_Meat" Content="VLEES" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="200" Width="980" FontSize="48" FontWeight="Bold" FontFamily="Arial Black" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/MEAT1.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Vegstables" Content="GROENTEN" HorizontalAlignment="Center" Margin="0,215,0,0" VerticalAlignment="Top" Height="200" Width="980" FontSize="48" FontWeight="Bold" FontFamily="Arial Black" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/VEGSTABELS1.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Fruits" Content="FRUIT" HorizontalAlignment="Center" Margin="0,420,0,0" VerticalAlignment="Top" Height="200" Width="980" FontSize="48" FontWeight="Bold" FontFamily="Arial Black" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/fruit1.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_Gerecht" Content="ZELF GEMAAKTE GERECHTEN" HorizontalAlignment="Center" Margin="0,625,0,0" VerticalAlignment="Top" Height="200" Width="980" FontSize="48" FontWeight="Bold" FontFamily="Arial Black" Foreground="White">
+            <Button.Background>
+                <ImageBrush ImageSource="/MEAL1.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

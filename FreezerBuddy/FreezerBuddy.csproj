@@ -7,7 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="fruit1.jpg" />
+    <None Remove="MEAL1.jpg" />
+    <None Remove="MEAT1.jpg" />
+    <None Remove="VEGSTABELS1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Pic\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fruit1.jpg" />
+    <Resource Include="MEAL1.jpg" />
+    <Resource Include="MEAT1.jpg" />
+    <Resource Include="VEGSTABELS1.jpg" />
   </ItemGroup>
 
 </Project>
